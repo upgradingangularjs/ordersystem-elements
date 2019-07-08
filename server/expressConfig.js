@@ -10,5 +10,5 @@ module.exports = function(app) {
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: false }));
 
-  app.use(express.static(rootPath + '/dist'));
+  app.use(express.static(rootPath + 'client-legacy/dist'));
 };
