@@ -38,11 +38,11 @@ I've incorporated the work of many people in my research on upgrading with Eleme
 - [Devoxx Belgium 2018 Talk](https://www.youtube.com/watch?v=6KCnV72vrXY)
 - [`create-ng1-wrapper`](https://github.com/ErinCoughlan/create-ng1-wrapper)
 
-[Juri Strumpflohner](https://twitter.com/juristr) 
+[Juri Strumpflohner](https://twitter.com/juristr): 
 - [Egghead Course on Angular Elements](https://egghead.io/courses/getting-started-with-angular-elements)
 
-[James Henry](https://twitter.com/MrJamesHenry)
+[James Henry](https://twitter.com/MrJamesHenry):
 - [`ng-custom-element`]( https://github.com/JamesHenry/ng-custom-element/) (adds similar to functionality to `ng-prop-` and `ng-on-` to pre-AngularJS 1.7 projects)
 
-[Jeff Delaney](https://twitter.com/Jeffdelaney23) ([Fireship.io](https://fireship.io/))
+[Jeff Delaney](https://twitter.com/Jeffdelaney23) ([Fireship.io](https://fireship.io/)):
 - [Advanced Angular Elements](https://www.youtube.com/watch?v=ujaMvl5M8nY)
