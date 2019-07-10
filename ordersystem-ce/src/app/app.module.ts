@@ -16,16 +16,17 @@ export class AppModule {
   constructor(private injector: Injector) {}
 
   ngDoBootstrap() {
-    const customersTableEl = createCustomElement(CustomersTableComponent, {
-      injector: this.injector
-    });
+    const elements: any[] = [
+      [CustomersTableComponent, 'customers-table-ce'],
+      [DiscountComponent, 'discount-ce']
+    ];
 
-    customElements.define('customers-table-ce', customersTableEl);
+    for (const [component, name] of elements) {
+      const el = createCustomElement(component, {
+        injector: this.injector
+      });
 
-    const discountEl = createCustomElement(DiscountComponent, {
-      injector: this.injector
-    });
-
-    customElements.define('discount-ce', discountEl);
+      customElements.define(name, el);
+    }
   }
 }
